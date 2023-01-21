@@ -7,7 +7,6 @@ import { HeadersignComponent } from './User/Header/Sign/headersign/headersign.co
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './User/Login/login/login.component';
 import { RegisterComponent } from './User/Reigister/register/register.component';
-import { FooterComponent } from './User/Footer/Sign/footer/footer.component';
 import { FootersignComponent } from './User/Footer/Sign/footersign/footersign.component';
 
 @NgModule({
@@ -17,7 +16,6 @@ import { FootersignComponent } from './User/Footer/Sign/footersign/footersign.co
     LoginComponent,
     RegisterComponent,
     HeadersignComponent,
-    FooterComponent,
     FootersignComponent,
   ],
   imports: [
