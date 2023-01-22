@@ -3,6 +3,10 @@ import { BrowserModule } from '@angular/platform-browser';
 import { ReactiveFormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations' ;
+import { ToastrModule } from 'ngx-toastr';
+import { NgxUiLoaderModule } from 'ngx-ui-loader';
+
 import { AppComponent } from './app.component';
 import { HeadersignComponent } from './User/Header/Sign/headersign/headersign.component';
 import { HomeComponent } from './home/home.component';
@@ -19,11 +23,19 @@ import { FootersignComponent } from './User/Footer/Sign/footersign/footersign.co
     HeadersignComponent,
     FootersignComponent,
   ],
-  imports: [
+   imports: [
     BrowserModule,
     AppRoutingModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    BrowserAnimationsModule,
+    NgxUiLoaderModule,
+    ToastrModule.forRoot({
+      timeOut: 10000,
+      positionClass: 'toast-bottom-right',
+      preventDuplicates: true,
+    }),
   ],
+
   providers: [],
   bootstrap: [AppComponent]
 })
