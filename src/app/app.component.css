@@ -1,11 +1,20 @@
-@import "../assets/css/vendor/font-awesome.min.css";
-@import "../assets/css/vendor/materialdesignicons.min.css";
-@import "../assets/css/vendor/bootstrap.min.css";
-@import "../assets/css/vendor/bootstrap-slider.min.css";
-@import "../assets/css/vendor/owl.carousel.min.css";
-@import "../assets/css/vendor/jquery.horizontalmenu.css";
-@import "../assets/css/vendor/fancybox.min.css";
-@import "../assets/css/vendor/nice-select.css";
-@import "../assets/css/vendor/nouislider.min.css";
-@import "../assets/css/main.css";
-@import "../assets/css/colors/default.css";
+.main-menuTop{
+  margin: 0;
+  padding: 0;
+  background-color: #f92b52;
+}
+.main-menuTop li{
+  display: inline;
+}
+.main-menuTop li a {
+  display: inline-block;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: #fff;
+}
+.main-menuTop li a:hover{
+  background-color: #f92b52;
+}
+.active-menuTop{
+  background-color: #f92b52;
+}

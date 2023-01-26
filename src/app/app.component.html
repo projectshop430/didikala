@@ -1,23 +1,21 @@
-<div class="wrapper">
-  <!-- Start main-content -->
-  <main class="main-content dt-sl mt-0 mb-0" >
-  <ul class="main-menu">
-      <li><a routerLink="/" routerLinkActive="active-menu" [routerLinkActiveOptions]="{exact : true}">صفحه اصلی</a></li>
-      <li><a routerLink="/FormLogin" routerLinkActive="active-menu">ورود</a></li>
-      <li><a routerLink="/FormRegister" routerLinkActive="active-menu">ثبت نام</a></li>
 
-  </ul>
-
-  </main>
 
   <div class="wrapper">
     <!-- Start header -->
     <header class="main-header">
+      <ul class="main-menuTop">
+        <li><a routerLink="/" routerLinkActive="active-menu" [routerLinkActiveOptions]="{exact : true}">صفحه اصلی</a></li>
+        <li><a routerLink="/FormLogin" routerLinkActive="active-menu">ورود</a></li>
+        <li><a routerLink="/FormRegister" routerLinkActive="active-menu">ثبت نام</a></li>
+
+    </ul>
+    <router-outlet></router-outlet>
         <!-- Start ads -->
         <div class="ads-header-wrapper">
             <a href="#" class="ads-header hidden-sm" target="_blank"
                 style="background-image: url(../assets/img/banner/large-ads.jpg)"></a>
         </div>
+
         <!-- End ads -->
         <!-- Start topbar -->
         <div class="container main-container">
@@ -2673,5 +2671,4 @@
     <!-- End footer -->
 </div>
 
-</div>
-<router-outlet></router-outlet>
+
