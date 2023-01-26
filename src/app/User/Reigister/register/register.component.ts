@@ -12,11 +12,19 @@ export class RegisterComponent  implements OnInit {
   formTemplate = [
     {
       "type":"textBox",
-      "label":"FeildRegemail",
+      "label":"ایمیل",
+      "placeholders":"ایمیل یا شماره موبایل خود را وارد نمایید",
+      "icon":"mdi mdi-account-circle-outline",
     },
     {
-      "type":"textBox",
-      "label":"FeildRegpassword",
+      "type":"password",
+      "label":"پسورد",
+      "placeholders":"رمز عبور خود را وارد نمایید",
+      "icon":"mdi mdi-lock-open-variant-outline",
+    },
+    {
+      "type":"checkbox",
+      "label":"",
     },
   ]
 
