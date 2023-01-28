@@ -65,13 +65,13 @@
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kb",
-                  "maximumError": "1mb"
+                  "maximumWarning": "5mb",
+                  "maximumError": "5mb"
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "2kb",
-                  "maximumError": "4kb"
+                  "maximumWarning": "5mb",
+                  "maximumError": "5mb"
                 }
               ],
               "outputHashing": "all"
@@ -118,10 +118,36 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/css/vendor/font-awesome.min.css",
+              "src/assets/css/vendor/materialdesignicons.min.css",
+              "src/assets/css/vendor/bootstrap.min.css",
+              "src/assets/css/vendor/bootstrap-slider.min.css",
+              "src/assets/css/vendor/owl.carousel.min.css",
+              "src/assets/css/vendor/jquery.horizontalmenu.css",
+              "src/assets/css/vendor/fancybox.min.css",
+              "src/assets/css/vendor/nice-select.css",
+              "src/assets/css/vendor/nouislider.min.css",
+              "src/assets/css/main.css",
+              "src/assets/css/colors/default.css"
             ],
             "scripts": [
-
+              "src/assets/js/vendor/jquery-3.4.1.min.js",
+              "src/assets/js/vendor/popper.min.js",
+              "src/assets/js/vendor/bootstrap.min.js",
+              "src/assets/js/vendor/bootstrap-slider.min.js",
+              "src/assets/js/vendor/owl.carousel.min.js",
+              "src/assets/js/vendor/owl.carousel2.thumbs.min.js",
+              "src/assets/js/vendor/jquery.nicescroll.min.js",
+              "src/assets/js/vendor/jquery.nice-select.min.js",
+              "src/assets/js/vendor/nouislider.min.js",
+              "src/assets/js/vendor/jquery.horizontalmenu.js",
+              "src/assets/js/vendor/jquery.fancybox.min.js",
+              "src/assets/js/vendor/countdown.min.js",
+              "src/assets/js/vendor/wNumb.js",
+              "src/assets/js/vendor/ResizeSensor.min.js",
+              "src/assets/js/vendor/theia-sticky-sidebar.min.js",
+              "src/assets/js/main.js"
             ]
           }
         }

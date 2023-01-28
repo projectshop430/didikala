@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
+import { Page404Component } from './User/Error/page404/page404.component';
 import { FootersignComponent } from './User/Footer/Sign/footersign/footersign.component';
 import { HeadersignComponent } from './User/Header/Sign/headersign/headersign.component';
 import { LoginComponent } from './User/Login/login/login.component';
@@ -14,6 +15,7 @@ const routes: Routes = [
     {path:'Headersign',component:HeadersignComponent},
     {path:'Footersign',component:FootersignComponent},
   ]},
+  {path:'**',component:Page404Component}
 ];
 
 @NgModule({

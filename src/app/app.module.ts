@@ -12,6 +12,13 @@ import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './User/Login/login/login.component';
 import { RegisterComponent } from './User/Reigister/register/register.component';
 import { FootersignComponent } from './User/Footer/Sign/footersign/footersign.component';
+import { MenuProjectComponent } from './Menu/menu-project/menu-project.component';
+import { Page404Component } from './User/Error/page404/page404.component';
+import { AdvertisingpageComponent } from './User/Advertising/advertisingpage/advertisingpage.component';
+import { AccountingComponent } from './User/Header/Page/account/accounting/accounting.component';
+import { CartListComponent } from './User/Header/Page/Cart/cart-list/cart-list.component';
+import { MenuBarComponent } from './User/Header/Page/Menu/menu-bar/menu-bar.component';
+import { SearchingComponent } from './User/Header/Page/search/searching/searching.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +28,13 @@ import { FootersignComponent } from './User/Footer/Sign/footersign/footersign.co
     RegisterComponent,
     HeadersignComponent,
     FootersignComponent,
+    MenuProjectComponent,
+    Page404Component,
+    AdvertisingpageComponent,
+    AccountingComponent,
+    CartListComponent,
+    MenuBarComponent,
+    SearchingComponent,
   ],
    imports: [
     BrowserModule,
