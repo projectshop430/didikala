@@ -19,6 +19,13 @@ import { AccountingComponent } from './User/Header/Page/account/accounting/accou
 import { CartListComponent } from './User/Header/Page/Cart/cart-list/cart-list.component';
 import { MenuBarComponent } from './User/Header/Page/Menu/menu-bar/menu-bar.component';
 import { SearchingComponent } from './User/Header/Page/search/searching/searching.component';
+import { HeaderComponent } from './User/Header/header/header.component';
+import { FooterComponent } from './User/Footer/footer/footer.component';
+import { ServiceitemComponent } from './User/Footer/page/serviceitem/serviceitem.component';
+import { MenufooterComponent } from './User/Footer/page/menufooter/menufooter.component';
+import { NewsletterComponent } from './User/Footer/page/newsletter/newsletter.component';
+import { SocialsComponent } from './User/Footer/page/socials/socials.component';
+import { CreditlogoComponent } from './User/Footer/page/creditlogo/creditlogo.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +42,14 @@ import { SearchingComponent } from './User/Header/Page/search/searching/searchin
     CartListComponent,
     MenuBarComponent,
     SearchingComponent,
+    HeaderComponent,
+    FooterComponent,
+    ServiceitemComponent,
+    MenufooterComponent,
+    NewsletterComponent,
+    SocialsComponent,
+    CreditlogoComponent,
+
   ],
    imports: [
     BrowserModule,
