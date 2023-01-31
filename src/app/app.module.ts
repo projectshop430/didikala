@@ -28,6 +28,8 @@ import { SocialsComponent } from './User/Footer/page/socials/socials.component';
 import { CreditlogoComponent } from './User/Footer/page/creditlogo/creditlogo.component';
 import { StartbannerComponent } from './User/Mainindex/startbanner/startbanner.component';
 import { MainsliderComponent } from './User/Mainindex/mainslider/mainslider.component';
+import { ProductSliderAmazingofferComponent } from './User/Mainindex/product-slider-amazingoffer/product-slider-amazingoffer.component';
+import { ProductComponent } from './User/Mainindex/product/product/product.component';
 
 @NgModule({
   declarations: [
@@ -52,7 +54,9 @@ import { MainsliderComponent } from './User/Mainindex/mainslider/mainslider.comp
     SocialsComponent,
     CreditlogoComponent,
     StartbannerComponent,
-    MainsliderComponent
+    MainsliderComponent,
+    ProductSliderAmazingofferComponent,
+    ProductComponent
 
   ],
    imports: [
