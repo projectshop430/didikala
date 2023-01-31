@@ -27,6 +27,7 @@ import { NewsletterComponent } from './User/Footer/page/newsletter/newsletter.co
 import { SocialsComponent } from './User/Footer/page/socials/socials.component';
 import { CreditlogoComponent } from './User/Footer/page/creditlogo/creditlogo.component';
 import { StartbannerComponent } from './User/Mainindex/startbanner/startbanner.component';
+import { MainsliderComponent } from './User/Mainindex/mainslider/mainslider.component';
 
 @NgModule({
   declarations: [
@@ -51,6 +52,7 @@ import { StartbannerComponent } from './User/Mainindex/startbanner/startbanner.c
     SocialsComponent,
     CreditlogoComponent,
     StartbannerComponent,
+    MainsliderComponent
 
   ],
    imports: [

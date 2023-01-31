@@ -31,69 +31,36 @@
                 </aside>
 
 
-
-
-
-
-
                 <div class="col-lg-8 col-md-12 order-1">
                   <!-- Start main-slider -->
                   <section id="main-slider"
                       class="main-slider main-slider-cs mt-1 carousel slide carousel-fade card hidden-sm"
-                      data-ride="carousel">
-                      <ol class="carousel-indicators">
-                          <li data-target="#main-slider" data-slide-to="0" class="active"></li>
-                          <li data-target="#main-slider" data-slide-to="1"></li>
-                          <li data-target="#main-slider" data-slide-to="2"></li>
-                          <li data-target="#main-slider" data-slide-to="3"></li>
-                          <li data-target="#main-slider" data-slide-to="4"></li>
-                          <li data-target="#main-slider" data-slide-to="5"></li>
-                          <li data-target="#main-slider" data-slide-to="6"></li>
+                      data-ride="carousel"  *ngFor="let item of filenamemainslider">
+                      <ol class="carousel-indicators"  >
+                          <li data-target="#main-slider-res" class="{{item.active}}"></li>
+
                       </ol>
-                      <div class="carousel-inner">
-                          <div class="carousel-item active">
+                      <div class="carousel-inner" >
+
+                          <div class="carousel-item {{item.active}}">
                               <a class="main-slider-slide" href="#">
-                                  <img src="./assets/img/main-slider/img-slider-2/1.jpg" alt="" class="img-fluid">
+                                <app-mainslider  [itemsmainslider]="item"></app-mainslider>
                               </a>
                           </div>
-                          <div class="carousel-item">
-                              <a class="main-slider-slide" href="#">
-                                  <img src="./assets/img/main-slider/img-slider-2/2.jpg" alt="" class="img-fluid">
-                              </a>
-                          </div>
-                          <div class="carousel-item">
-                              <a class="main-slider-slide" href="#">
-                                  <img src="./assets/img/main-slider/img-slider-2/3.jpg" alt="" class="img-fluid">
-                              </a>
-                          </div>
-                          <div class="carousel-item">
-                              <a class="main-slider-slide" href="#">
-                                  <img src="./assets/img/main-slider/img-slider-2/4.jpg" alt="" class="img-fluid">
-                              </a>
-                          </div>
-                          <div class="carousel-item">
-                              <a class="main-slider-slide" href="#">
-                                  <img src="./assets/img/main-slider/img-slider-2/5.jpg" alt="" class="img-fluid">
-                              </a>
-                          </div>
-                          <div class="carousel-item">
-                              <a class="main-slider-slide" href="#">
-                                  <img src="./assets/img/main-slider/img-slider-2/6.jpg" alt="" class="img-fluid">
-                              </a>
-                          </div>
-                          <div class="carousel-item">
-                              <a class="main-slider-slide" href="#">
-                                  <img src="./assets/img/main-slider/img-slider-2/7.jpg" alt="" class="img-fluid">
-                              </a>
-                          </div>
+
+
                       </div>
-                      <a class="carousel-control-prev" href="#main-slider" role="button" data-slide="prev">
+                      <!-- <a class="carousel-control-prev" (click)="runtimime(item.id)">
                           <i class="mdi mdi-chevron-right"></i>
                       </a>
-                      <a class="carousel-control-next" href="#main-slider" data-slide="next">
+                      <a class="carousel-control-next" (click)="runtimime(item.id)">
                           <i class="mdi mdi-chevron-left"></i>
-                      </a>
+                      </a> -->
                   </section>
+
+
+
+
                   <section id="main-slider-res"
                       class="main-slider carousel slide carousel-fade card d-none show-sm" data-ride="carousel">
                       <ol class="carousel-indicators">
