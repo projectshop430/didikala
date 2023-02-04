@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-product-slider-amazingoffer',
@@ -8,7 +8,12 @@ import { Component } from '@angular/core';
 export class ProductSliderAmazingofferComponent {
   viewall:string=" مشاهده همه"
   picturepishned="./assets/img/theme/amazing-1.png"
-  color="backgroundproductslideroffer"
+  color1="backgroundproductslideroffer";
+  color2="backgrouncolorslideroffer2";
+  @Input () setcolor1!:boolean;
+  @Input() setcolor2!:boolean;
+
+  disablevalue!:boolean;
 
   productlist=
   [{id:1,address:"./assets/img/products/017.jpg",name:"کت مردانه",price:"199,000",category:"لباس مردانه"},

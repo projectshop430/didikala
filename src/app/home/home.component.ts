@@ -9,16 +9,47 @@ import { TimeInterval } from 'rxjs/internal/operators/timeInterval';
 })
 export class HomeComponent  {
   filenamestartbaner=[
-  {id:1,address:"../assets/img/banner/banner-side-slider-1.jpg",name:"banner-side-slider-1.jpg"},
-  {id:2,address:"../assets/img/banner/banner-side-slider-2.jpg",name:"banner-side-slider-2.jpg"}];
+  {id:1,address:"../assets/img/banner/banner-side-slider-1.jpg",name:"banner-side-slider-1"},
+  {id:2,address:"../assets/img/banner/banner-side-slider-2.jpg",name:"banner-side-slider-2"}];
+  mediumbanner1=[
+    {id:1,address:"./assets/img/banner/medium-banner-1.jpg",name:"mediumbanner1"},
+    {id:2,address:"./assets/img/banner/medium-banner-2.jpg",name:"mediumbanner2"},
+];
+
+smallbanner=[
+  {id:1,address:"./assets/img/banner/small-banner-6.jpg",name:"msmall-banner-6"},
+  {id:2,address:"./assets/img/banner/small-banner-6.jpg",name:"msmall-banner-6"},
+  {id:3,address:"./assets/img/banner/small-banner-6.jpg",name:"msmall-banner-6"},
+  {id:4,address:"./assets/img/banner/small-banner-6.jpg",name:"msmall-banner-6"},
+];
+
+StartBanner2=[
+  {id:1,address:"./assets/img/banner/large-banner.jpg",name:"large-banner"},
+
+];
+
+brandcompany=[
+  {id:1,address:"./assets/img/brand/1076.png",name:"1076"},
+  {id:2,address:"./assets/img/brand/1076.png",name:"1076"},
+  {id:3,address:"./assets/img/brand/1076.png",name:"1076"},
+  {id:4,address:"./assets/img/brand/1076.png",name:"1076"},
+  {id:1,address:"./assets/img/brand/1076.png",name:"1076"},
+  {id:2,address:"./assets/img/brand/1076.png",name:"1076"},
+  {id:3,address:"./assets/img/brand/1076.png",name:"1076"},
+  {id:4,address:"./assets/img/brand/1076.png",name:"1076"},
+
+];
+
+
+
   filenamemainslider=[
-  {id:0,address:"./assets/img/main-slider/img-slider-2/1.jpg",name:"banner-side-slider-2.jpg",active:"active",dataslideto:"0"},
-  {id:1,address:"./assets/img/main-slider/img-slider-2/2.jpg",name:"banner-side-slider-2.jpg",active:"",dataslideto:"1"},
-  {id:2,address:"./assets/img/main-slider/img-slider-2/3.jpg",name:"banner-side-slider-3.jpg",active:"",dataslideto:"2"},
-  {id:3,address:"./assets/img/main-slider/img-slider-2/4.jpg",name:"banner-side-slider-4.jpg",active:"",dataslideto:"3"},
-  {id:4,address:"./assets/img/main-slider/img-slider-2/5.jpg",name:"banner-side-slider-5.jpg",active:"",dataslideto:"4"},
-  {id:5,address:"./assets/img/main-slider/img-slider-2/6.jpg",name:"banner-side-slider-6.jpg",active:"",dataslideto:"5"},
-  {id:6,address:"./assets/img/main-slider/img-slider-2/7.jpg",name:"banner-side-slider-7.jpg",active:"",dataslideto:"6"}
+  {id:0,address:"./assets/img/main-slider/img-slider-2/1.jpg",name:"banner-side-slider-2",active:"active",dataslideto:"0"},
+  {id:1,address:"./assets/img/main-slider/img-slider-2/2.jpg",name:"banner-side-slider-2",active:"",dataslideto:"1"},
+  {id:2,address:"./assets/img/main-slider/img-slider-2/3.jpg",name:"banner-side-slider-3",active:"",dataslideto:"2"},
+  {id:3,address:"./assets/img/main-slider/img-slider-2/4.jpg",name:"banner-side-slider-4",active:"",dataslideto:"3"},
+  {id:4,address:"./assets/img/main-slider/img-slider-2/5.jpg",name:"banner-side-slider-5",active:"",dataslideto:"4"},
+  {id:5,address:"./assets/img/main-slider/img-slider-2/6.jpg",name:"banner-side-slider-6",active:"",dataslideto:"5"},
+  {id:6,address:"./assets/img/main-slider/img-slider-2/7.jpg",name:"banner-side-slider-7",active:"",dataslideto:"6"}
 ];
 viewall:string=" مشاهده همه"
 productlistn=[
@@ -36,6 +67,9 @@ timersetInterval=4000;
 x11:string="0"
 
  valueid:number=0;
+
+ color1:boolean=false;
+ color2:boolean=false;
 
 
 

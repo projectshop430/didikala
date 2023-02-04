@@ -30,6 +30,10 @@ import { StartbannerComponent } from './User/Mainindex/startbanner/startbanner.c
 import { MainsliderComponent } from './User/Mainindex/mainslider/mainslider.component';
 import { ProductSliderAmazingofferComponent } from './User/Mainindex/product-slider-amazingoffer/product-slider-amazingoffer.component';
 import { ProductComponent } from './User/Mainindex/product/product/product.component';
+import { BestsellingComponent } from './User/Mainindex/bestselling/bestselling.component';
+import { CategorysectionComponent } from './User/Mainindex/categorysection/categorysection.component';
+import { CategorysectionbaseComponent } from './User/Mainindex/categorysectionbase/categorysectionbase.component';
+import { FeatureproductComponent } from './User/Mainindex/featureproduct/featureproduct.component';
 
 @NgModule({
   declarations: [
@@ -56,7 +60,11 @@ import { ProductComponent } from './User/Mainindex/product/product/product.compo
     StartbannerComponent,
     MainsliderComponent,
     ProductSliderAmazingofferComponent,
-    ProductComponent
+    ProductComponent,
+    BestsellingComponent,
+    CategorysectionComponent,
+    CategorysectionbaseComponent,
+    FeatureproductComponent
 
   ],
    imports: [
