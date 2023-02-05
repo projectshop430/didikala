@@ -34,6 +34,7 @@ import { BestsellingComponent } from './User/Mainindex/bestselling/bestselling.c
 import { CategorysectionComponent } from './User/Mainindex/categorysection/categorysection.component';
 import { CategorysectionbaseComponent } from './User/Mainindex/categorysectionbase/categorysectionbase.component';
 import { FeatureproductComponent } from './User/Mainindex/featureproduct/featureproduct.component';
+import { PasswordchangeComponent } from './User/PasswordsChenge/passwordchange/passwordchange.component';
 
 @NgModule({
   declarations: [
@@ -64,7 +65,8 @@ import { FeatureproductComponent } from './User/Mainindex/featureproduct/feature
     BestsellingComponent,
     CategorysectionComponent,
     CategorysectionbaseComponent,
-    FeatureproductComponent
+    FeatureproductComponent,
+    PasswordchangeComponent
 
   ],
    imports: [
