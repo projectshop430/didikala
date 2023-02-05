@@ -38,6 +38,7 @@ import { FeatureproductComponent } from './User/Mainindex/featureproduct/feature
 import { PasswordchangeComponent } from './User/PasswordsChenge/passwordchange/passwordchange.component';
 
 import { CartemptyComponent } from './User/cartempty/cartempty/cartempty.component';
+import { VerifyphonenumberComponent } from './User/verifyphonenumber/verifyphonenumber/verifyphonenumber.component';
 
 
 @NgModule({
@@ -71,9 +72,10 @@ import { CartemptyComponent } from './User/cartempty/cartempty/cartempty.compone
     CategorysectionbaseComponent,
     FeatureproductComponent,
 
-    PasswordchangeComponent
+    PasswordchangeComponent,
 
-    CartemptyComponent
+    CartemptyComponent,
+      VerifyphonenumberComponent
 
 
   ],

@@ -8,6 +8,7 @@ import { LoginComponent } from './User/Login/login/login.component';
 import { PasswordchangeComponent } from './User/PasswordsChenge/passwordchange/passwordchange.component';
 import { RegisterComponent } from './User/Reigister/register/register.component';
 import { CartemptyComponent } from './User/cartempty/cartempty/cartempty.component';
+import { VerifyphonenumberComponent } from './User/verifyphonenumber/verifyphonenumber/verifyphonenumber.component';
 
 const routes: Routes = [
   {path:'',component:HomeComponent},
@@ -20,7 +21,8 @@ const routes: Routes = [
 
   {path:'FormPasswordschange' , component:PasswordchangeComponent},
 
-    {path:'cartempty',component:CartemptyComponent},
+  {path:'cartempty',component:CartemptyComponent},
+  {path:'verifyphonenumber',component:VerifyphonenumberComponent},
 
   {path:'**',component:Page404Component}
 
