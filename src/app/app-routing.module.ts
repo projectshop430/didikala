@@ -6,6 +6,7 @@ import { FootersignComponent } from './User/Footer/Sign/footersign/footersign.co
 import { HeadersignComponent } from './User/Header/Sign/headersign/headersign.component';
 import { LoginComponent } from './User/Login/login/login.component';
 import { RegisterComponent } from './User/Reigister/register/register.component';
+import { CartemptyComponent } from './User/cartempty/cartempty/cartempty.component';
 
 const routes: Routes = [
   {path:'',component:HomeComponent},
@@ -15,7 +16,9 @@ const routes: Routes = [
     {path:'Headersign',component:HeadersignComponent},
     {path:'Footersign',component:FootersignComponent},
   ]},
+    {path:'cartempty',component:CartemptyComponent},
   {path:'**',component:Page404Component}
+
 ];
 
 @NgModule({
