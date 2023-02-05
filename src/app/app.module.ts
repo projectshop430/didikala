@@ -34,7 +34,11 @@ import { BestsellingComponent } from './User/Mainindex/bestselling/bestselling.c
 import { CategorysectionComponent } from './User/Mainindex/categorysection/categorysection.component';
 import { CategorysectionbaseComponent } from './User/Mainindex/categorysectionbase/categorysectionbase.component';
 import { FeatureproductComponent } from './User/Mainindex/featureproduct/featureproduct.component';
+
+import { PasswordchangeComponent } from './User/PasswordsChenge/passwordchange/passwordchange.component';
+
 import { CartemptyComponent } from './User/cartempty/cartempty/cartempty.component';
+
 
 @NgModule({
   declarations: [
@@ -66,7 +70,11 @@ import { CartemptyComponent } from './User/cartempty/cartempty/cartempty.compone
     CategorysectionComponent,
     CategorysectionbaseComponent,
     FeatureproductComponent,
+
+    PasswordchangeComponent
+
     CartemptyComponent
+
 
   ],
    imports: [
