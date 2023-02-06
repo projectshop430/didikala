@@ -9,6 +9,11 @@ import { PasswordchangeComponent } from './User/PasswordsChenge/passwordchange/p
 import { RegisterComponent } from './User/Reigister/register/register.component';
 import { CartemptyComponent } from './User/cartempty/cartempty/cartempty.component';
 import { VerifyphonenumberComponent } from './User/verifyphonenumber/verifyphonenumber/verifyphonenumber.component';
+import { ShopcompleteComponent } from './shop/shopcomplete/shopcomplete.component';
+import { ShopsingleproductComponent } from './shop/shopsingleproduct/shopsingleproduct.component';
+import { ShopsingleproductinfomationComponent } from './shop/shopsingleproductinfomation/shopsingleproductinfomation.component';
+import { ShopsingleproductQusComponent } from './shop/shopcomplete/shopsingleproduct-qus/shopsingleproduct-qus.component';
+import { ShopporseshComponent } from './shop/shopporsesh/shopporsesh.component';
 
 const routes: Routes = [
   {path:'',component:HomeComponent},
@@ -23,6 +28,16 @@ const routes: Routes = [
 
   {path:'cartempty',component:CartemptyComponent},
   {path:'verifyphonenumber',component:VerifyphonenumberComponent},
+  {path:'shopcomplete',component:ShopcompleteComponent},
+  {path:'shopsingleproduct',component:ShopsingleproductComponent,
+  children:[
+    {path:'info',component:ShopsingleproductinfomationComponent},
+    {path:'porshesh',component:ShopporseshComponent},
+    {path:'',redirectTo:'info',pathMatch:'full'}
+
+  ]
+  },
+
 
   {path:'**',component:Page404Component}
 

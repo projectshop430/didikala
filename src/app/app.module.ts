@@ -39,6 +39,11 @@ import { PasswordchangeComponent } from './User/PasswordsChenge/passwordchange/p
 
 import { CartemptyComponent } from './User/cartempty/cartempty/cartempty.component';
 import { VerifyphonenumberComponent } from './User/verifyphonenumber/verifyphonenumber/verifyphonenumber.component';
+import { ShopcompleteComponent } from './shop/shopcomplete/shopcomplete.component';
+import { ShopsingleproductComponent } from './shop/shopsingleproduct/shopsingleproduct.component';
+import { ShopsingleproductinfomationComponent } from './shop/shopsingleproductinfomation/shopsingleproductinfomation.component';
+import { ShopporseshComponent } from './shop/shopporsesh/shopporsesh.component';
+
 
 
 @NgModule({
@@ -75,7 +80,13 @@ import { VerifyphonenumberComponent } from './User/verifyphonenumber/verifyphone
     PasswordchangeComponent,
 
     CartemptyComponent,
-      VerifyphonenumberComponent
+      VerifyphonenumberComponent,
+      ShopcompleteComponent,
+      ShopsingleproductComponent,
+      ShopsingleproductinfomationComponent,
+      ShopporseshComponent,
+
+
 
 
   ],
