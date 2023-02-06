@@ -17,21 +17,22 @@
                                   {{editnumber}}
                                 </a>
                             </div>
-                               <form action="#">
+                               <form [formGroup]="customerForm" (submit)="send()">
                                 <div class="form-row-title">
                                     <h3>کد تایید را وارد کنید</h3>
                                 </div>
                                 <div class="form-row">
                                     <div class="numbers-verify">
                                         <div class="lines-number-input">
-                                            <input type="text" class="line-number" maxlength="1" autofocus="">
-                                            <input type="text" class="line-number" maxlength="1">
-                                            <input type="text" class="line-number" maxlength="1">
-                                            <input type="text" class="line-number" maxlength="1">
-                                            <input type="text" class="line-number" maxlength="1">
+                                            <input type="text" class="line-number" maxlength="1" formControlName="sh1" autofocus="">
+                                            <input type="text" class="line-number" maxlength="1" formControlName="sh2">
+                                            <input type="text" class="line-number" maxlength="1" formControlName="sh3">
+                                            <input type="text" class="line-number" maxlength="1" formControlName="sh4">
+                                            <input type="text" class="line-number" maxlength="1" formControlName="sh5">
                                         </div>
                                     </div>
                                 </div>
+                                <button type="submit" class="btn btn-secondary">ورود</button>
                                 <div class="form-row mt-3">
                                     <div class="d-flex align-items-center">
                                         <span class="text-primary btn-link-border ml-1">دریافت مجدد کد تایید</span>
