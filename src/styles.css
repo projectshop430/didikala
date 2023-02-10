@@ -5,4 +5,9 @@
     color: #fff;
     font-weight: bold;
 }
+body{
+  margin: 0px;
+  padding: 0px;
+  direction: rtl;
+}
 
